@@ -1,0 +1,767 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.min.css" type="text/css">
+    <link href="css/jquery.formstyler.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css?v=2.1.5" media="screen" />
+    <link href="css/custom.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+    <script src="js/script.js"></script>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="fluid-container">
+  <header>
+        <!--banner-->
+        <div class="banner">
+          <div class="container">
+            <div class="right-block">
+              <div class="logo">
+                <a href="#"><img src="img/logo.png" alt="logo"></a>
+              </div>
+              <div class="form-header">
+                <p>8(960) 204-15-79</p>
+                <a href="#">Обратный звонок</a>
+                <form>
+                  <input type="text" placeholder="Ваш телефон">
+                  <input type="submit" value="Позвоните мне!">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div> <!--end banner-->
+        <!--main menu-->
+        <div class="fluid-container additional">
+        <div class="menu" id="menu">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <a href="javascript:void(0)" class="glyphicon glyphicon-search button-search"></a>
+                <nav>
+                  <ul>
+                  <li><a href="#">ГЛАВНАЯ</a></li>
+                  <li><a href="javascript:void(0)" class="button-project">ПРОЕКТЫ</a></li>
+                  <li><a href="#">АКЦИИ</a></li>
+                  <li><a href="#">О КОМПАНИИ</a></li>
+                  <li><a href="#">ГАЛЕРЕЯ</a></li>
+                  <li><a href="#">ВАКАНСИИ</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div><!--end main menu-->
+        </div>
+        <!--main fix menu-->
+        <div id = "fixMenu" class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="row" >
+              <div class="col-xs-4">
+                <button type="button" class="hamburger">
+                  <span class="sr-only">Toggle navigation</span>
+                </button>
+              </div>
+              <div class="col-xs-4 fix-logo"><a href="#"><img src="img/fix-logo.png" alt="logo"></a></div>
+              <div class="col-xs-4 fix-contact">
+                <a href="#" data-toggle="modal" data-target="#modal-box">Обратный звонок</a><span>8(960) 204-15-79</span>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="aside-fix-menu">
+            <ul>
+              <li><a href="#">Расчет дома</a></li>
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Вопрос-ответ</a></li>
+            </ul>
+          </div>
+        </div> <!--end main fix menu-->
+
+        <!--project menu-->
+        <div class="menu-projects">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                  <ul>
+                    <li><a href="#"><img src="img/house.png" alt="house">ДОМА</a></li>
+                    <li><a href="#"><img src="img/bath.png" alt="bath">БАНИ</a></li>
+                    <li><a href="#"><img src="img/foundation.png" alt="foundation">ФУНДАМЕНТЫ</a></li>
+                    <li><a href="#"><img src="img/summer-kitchen.png" alt="summer kitchen">ЛЕТНИЕ КУХНИ</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+       <!--end project menu-->
+       
+    <!--search menu-->
+    <div class="search-menu">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <form>
+                    <input type="text">
+                    <input type="submit" value="ПОИСК">
+                 </form>
+                </div>
+              </div>
+            </div>
+    </div><!--end search menu-->
+  </header>
+
+  <!--best projects-->
+  <div class="best-projects">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>ЛУЧШИЕ ПРОЕКТЫ</h1>
+              <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#houses">ДОМА</a></li>
+                <li><a data-toggle="tab" href="#bath">БАНИ</a></li>
+                <li><a data-toggle="tab" href="#foundation">ФУНДАМЕНТЫ</a></li>
+                <li><a data-toggle="tab" href="#summer-kitchen">ЛЕТНИЕ КУХНИ</a></li>
+              </ul>
+
+              <div class="tab-content">
+
+                <!-- houses tab -->
+                <div id="houses" class="tab-pane fade in active">
+                  <div class="flexslider">
+                    <ul class="slides">
+                      <li>
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project1</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row attention">
+                                  <div class="price">
+                                    <span class="old-price">от<sup>1 500 000</sup></span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project2</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row">
+                                  <div class="price">
+                                    <span>от</span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project4</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row attention">
+                                  <div class="price">
+                                    <span class="old-price">от<sup>1 500 000</sup></span>
+                                    <span class="current-price ">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project5</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row">
+                                  <div class="price">
+                                    <span>от</span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- bath tab -->
+                <div id="bath" class="tab-pane fade">
+                  <div class="flexslider">
+                    <ul class="slides">
+                      <li>
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project1</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row attention">
+                                  <div class="price">
+                                    <span class="old-price">от<sup>1 500 000</sup></span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project2</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row">
+                                  <div class="price">
+                                    <span>от</span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project4</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row attention">
+                                  <div class="price">
+                                    <span class="old-price">от<sup>1 500 000</sup></span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project5</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row">
+                                  <div class="price">
+                                    <span>от</span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- foundation tab -->
+                <div id="foundation" class="tab-pane fade">
+                  <div class="flexslider">
+                    <ul class="slides">
+                      <li>
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project1</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row attention">
+                                  <div class="price">
+                                    <span class="old-price">от<sup>1 500 000</sup></span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project2</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row">
+                                  <div class="price">
+                                    <span>от</span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project4</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row ">
+                                  <div class="price">
+                                    <span class="old-price">от<sup>1 500 000</sup></span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project5</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row">
+                                  <div class="price">
+                                    <span>от</span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- summer kitchen tab -->
+                <div id="summer-kitchen" class="tab-pane fade">
+                  <div class="flexslider">
+                    <ul class="slides">
+                      <li>
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project1</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row attention">
+                                  <div class="price">
+                                    <span class="old-price">от<sup>1 500 000</sup></span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project2</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row">
+                                  <div class="price">
+                                    <span>от</span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project4</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row attention">
+                                  <div class="price">
+                                    <span class="old-price">от<sup>1 500 000</sup></span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-xs-6">
+                            <div class="unit">
+                              <a href="#" class="clearfix">
+                                <div class="object-name">Project5</div>
+                                <img src="img/slider.png" alt="">
+                                <div class="object-description single-row">
+                                  <div class="price">
+                                    <span>от</span>
+                                    <span class="current-price">1 300 000 $</span>
+                                  </div>
+                                  <div class="sizes">
+                                    <span class="sides">10x12 м</span>
+                                    <span class="square">129 м<sup>2</sup></span>
+                                  </div>
+                                </div>
+                                <div class="shadow">
+                                  <div class="center">
+                                    <div class="active-house"></div>
+                                    <p>Перейти к проекту</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div> <!-- end tab content-->
+
+            </div>
+          </div>
+        </div>
+  </div> <!--end best projects-->
+  <!--MAIN CONTENT-->
+  <div class="container">
+        <main>
+          <!--map-->
+          <div class="map">
+          <h2>Мы строим везде!</h2>
+          <div class="wrap-achievement">
+            <div class="achievement"><span>68</span><p>Объектов построено</p></div>
+            <div class="between-achievement"><p>в</p></div>
+            <div class="achievement"><span>4</span><p>Регионах россии</p></div>
+          </div>
+          <div class="wrap-achievement">
+            <div class="regions">
+              <p>Ярославская область</p>
+              <p>Новгородская область</p>
+            </div>
+            <div class="regions">
+              <p>Ленинградская область</p>
+              <p>Московская область</p>
+            </div>
+          </div>
+          </div><!--end map-->
+
+          <!--article-->
+        <article>
+          <h2>Постройте дом и баню своей мечты!</h2>
+          <p>Любой здравомыслящий человек мечтает о красивом, уютном доме в живописном местечке за городом, который можно использовать для сезонного или постоянного проживания. Стоит уточнить, что какими бы прекрасными ни были загородные дома на вторичном рынке жилья, они не могут в полной мере соответствовать всем требованиям будущего домовладельца. Заказав строительство деревянных каркасных домов под ключ в Ярославле у нас, Вы станете владельцем идеального строения, которое устроит Вас по всем параметрам. Вы лично сможете выбрать проект будущего дома и, если необходимо, принять непосредственное участие в процессе его корректировки.</p>
+          <h2>Выбирая нас, вы получаете:</h2>
+          <div class="reference">
+            <span><img src="img/reliable.png" alt="Надежность"></span>
+            <h3>Надежного исполнителя</h3>
+            <p>Мы работаем без предоплаты и без посредников.</p>
+          </div>
+           <div class="reference">
+            <span><img src="img/materials.png" alt="Материалы"></span>
+            <h3>Качественные материалы</h3>
+            <p>У нас есть собственная сырьевая база. Мы закупаем только проверенные материалы, а также  используем полы и вагонку камерной сушки.</p>
+          </div>
+           <div class="reference">
+            <span><img src="img/flexibility.png" alt="Удобство и гибкость"></span>
+            <h3>Удобство и гибкость</h3>
+            <p>Доставка включена в стоимость. Мы работаем по индивидуальным проектам и готовы внести изменения в уже готовые проекты, по вашему желанию.</p>
+          </div>
+          <p>Строительство деревянных <a href="#">каркасных домов</a> под ключ в Ярославле — это крайне важная, сложная и ответственная работа, которая требует богатого опыта и высокого профессионализма. Мы готовы выполнить работу любой сложности с максимально высокими результатами и гарантируем отличное качество всех построек. Качество готового дома зависит от многочисленных факторов, таких как выбор строительного материала, разработка проекта, профессиональный уровень архитекторов и строителей. Почему стоит заказать строительство деревянных каркасных домов под ключ в Ярославле у нас? Потому что мы работаем честно, профессионально и оперативно!</p>
+          <p>За последние несколько лет деревянное домостроение очень часто сопровождается возведением бани на загородном участке. Мы также осуществляем строительство бань под ключ в Ярославле на выгодных условиях. Если Вы считаете, что возведение бани Вам не по карману и что строительство может затянуться на несколько лет, то обратитесь в компанию «БрусМонтаж». Мы развеем все Ваши сомнения! Для получения дополнительной информации свяжитесь с нашими менеджерами. Закажите строительство бань под ключ в Ярославле — сделайте шаг навстречу счастливому и беззаботному будущему!</p>  
+        </article><!--end article-->
+        </main>   
+    <!--aside bar-->
+    <aside>
+          <div class="add">
+            <a href="#">
+              <img src="img/panel.png" alt="">
+            </a>
+          </div>
+          <div class="list">
+            <h2>Важно знать:</h2>
+            <ul>
+              <li><a href="#">Доставка и оплата</a></li>
+              <li><a href="#">Документация</a></li>
+              <li><a href="#">Процесс строительства</a></li>
+              <li><a href="#">Отзывы</a></li>
+            </ul>
+          </div>
+          <!--first aside slider-->
+                
+            <div class="list">
+                    <div class="flexslider">
+                    <ul class="slides">
+                      <li>
+                          <a href="#" class="clearfix">
+                            <div class="object-name">Project1</div>
+                            <img src="img/aside-house.png" alt="">
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" class="clearfix">
+                            <div class="object-name">Project2</div>
+                            <img src="img/aside-house.png" alt="">
+                          </a>
+                      </li>
+                    </ul>
+                  </div>
+
+            </div>
+
+                
+          
+                      
+          
+          <!--second aside slider-->
+          <div class="list">
+                  <h2>Наши работы:</h2>
+                    <div class="flexslider">
+                    <ul class="slides">
+                      <li>
+                          <a href="#" class="clearfix">
+                            <div class="object-name">Project1</div>
+                            <img src="img/aside-bath.png" alt="">
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" class="clearfix">
+                            <div class="object-name">Project2</div>
+                            <img src="img/aside-bath.png" alt="">
+                          </a>
+                      </li>
+                    </ul>
+                  </div>   
+          </div>
+
+          
+    </aside><!--end aside bar-->
+  </div><!--MAIN CONTENT END-->
+  <footer>
+        <div class="container">
+          <div class="copyright">
+            <img src="img/copy.png" alt="copyright">
+            <p>© 2015 СК “Брусмонтаж”</p>
+            <a href="http://kuratov.ru">
+              <span>Разработка сайта:</span>
+              <br>
+              kuratov.ru
+            </a>
+          </div>
+          <div class="contact">
+            <p class="contact-header">Мы в интернете:</p>
+            <p>Пишите нам на почту:
+              <br>
+              <a href="#" class="mail">brusmontazh@yandex.ru</a>
+            </p>
+            <p>Наши страницы в соцсетях:
+              <br>
+              <a href="#" class="vk"></a>
+              <a href="#" class="fb"></a>
+            </p>
+          </div>
+          <div class="contact">
+            <p class="contact-header">Производственная база:</p>
+            <p><span class="phone">8 (960) 204-15-79</span></p>
+            <p>Новгородская обл., г.Пестово, ул.Лермонтова</p>
+          </div>
+          <div class="contact">
+            <p class="contact-header">Офис в Рыбинске:</p>
+            <p><span class="phone">8(930)1180570</span> - Николай</p>
+            <p>г.Рыбинск, ул.Боткина, 5</p>
+            <p>Звоните при посещении офиса заранее по телефону:</p>
+            <span class="phone">8(960)206-15-69</span>
+          </div>
+        </div>
+  </footer>
+                <!-- Modal -->
+                  <div id="modal-box" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2>Предложение <span>для вас!</span></h2>
+                            <p>Оставьте e-mail и получите выгодное предложение</p>
+                            <form>
+                              <input type="text" placeholder="Ваш e-mail">
+                              <input type="submit" value="Получить предложение">
+                            </form>
+                      </div>
+                    </div>
+                  </div>
+</div> <!-- end fluid-container -->
+</body>
+</html>
